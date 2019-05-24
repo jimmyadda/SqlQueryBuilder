@@ -1,0 +1,4 @@
+Select [tblStaff].StaffID ,[tblStaff].StaffFirstName ,[tblStaff].StaffLastName 
+From
+[Gan].[dbo].[tblStaff]
+ Where[StaffAge]<>10
